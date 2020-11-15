@@ -1,5 +1,5 @@
 var express = require("express");
-var app = express();
+var app01 = express();
 
 app.get("/", (req, res) => {
     res.status(200).send("Hello World.");
@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.write("Hello World.");
     res.end(); */
 });
-app.listen(3000);
+app01.listen(3000);
 //check this URL [http://localhost:3000/]
 
 

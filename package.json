@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Pippippi3104/WebApp_Node.js_and_Express#readme",
   "dependencies": {
+    "bootstrap": "^4.5.3",
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }
